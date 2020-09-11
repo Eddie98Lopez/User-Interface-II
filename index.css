@@ -44,6 +44,9 @@ table {
 
 /* Begin your code below this comment*/
 
+body{
+	font-family:'Prompt', sans-serif;
+}
 .navbar{
     height: 55px;
 	background-color: black;
@@ -56,8 +59,10 @@ table {
 }
 
 nav {
+	
 	display: flex;
 	justify-content: flex-end;
+	text-transform: uppercase;
     
 }
 
@@ -72,24 +77,42 @@ nav {
 }
 
 header img {
-	scale: 100%
-	;
+	object-fit: cover;
+	
 }
 
 header{
 	background-image: url(/assets/headIMG.png);
 	background-position: bottom left;
+
 	height: 50rem;
 	width: 100%;
-	overflow: hidden;
 	position: relative;
 }
 
-header h1{
+header div {
 	position:absolute;
 	top: 10%;
 	left: 5%;
+}
+
+header div h1{
 	font-family: 'Bebas Neue', cursive;
 	font-size:15rem;
 	line-height: 82%;
+}
+
+header div a{
+	text-decoration: none;
+	color: white;
+	
+}
+
+.gallery{
+	display: flex;
+}
+
+footer{
+	height: 100px;
+	background-color: grey;
 }
