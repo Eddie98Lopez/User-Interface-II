@@ -76,6 +76,10 @@ nav {
     
 }
 
+.navbar nav a:hover{
+	background-color: lightslategray ;
+}
+
 header img {
 	object-fit: cover;
 	
@@ -83,9 +87,9 @@ header img {
 
 header{
 	background-image: url(/assets/headIMG.png);
-	background-position: bottom left;
+	background-position: left;
 
-	height: 50rem;
+	height: 43rem;
 	width: 100%;
 	position: relative;
 }
@@ -100,16 +104,26 @@ header div h1{
 	font-family: 'Bebas Neue', cursive;
 	font-size:15rem;
 	line-height: 82%;
+	margin-bottom: 30px;
 }
 
 header div a{
 	text-decoration: none;
 	color: white;
+	padding: 20px;
+	background-color: black;
+	margin-left: 7px;
 	
 }
 
+header div a:hover{
+	background-color: lightslategrey;
+}
+
+
 .gallery{
 	display: flex;
+	flex-flow: nowrap
 }
 
 footer{
