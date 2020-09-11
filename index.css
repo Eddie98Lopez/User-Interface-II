@@ -88,7 +88,7 @@ header img {
 header{
 	background-image: url(/assets/headIMG.png);
 	background-position: left;
-
+	border-bottom: 5px solid white;
 	height: 43rem;
 	width: 100%;
 	position: relative;
@@ -121,9 +121,24 @@ header div a:hover{
 }
 
 
-.gallery{
+section{
 	display: flex;
-	flex-flow: nowrap
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+
+}
+
+section div {
+	height: 20rem;
+	width: 20rem;
+}
+
+section img{
+
+	height: 20rem;
+	width: 20rem;
+	object-fit: cover;
+		
 }
 
 footer{
