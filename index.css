@@ -144,4 +144,23 @@ section img{
 footer{
 	height: 100px;
 	background-color: grey;
+	display: flex;	
+	justify-content: center;
+	align-content: center;
+	margin-top: 20px;
+
+	
 }
+footer a {
+	padding:20px;
+	text-decoration: none;
+	color:white;
+	background-color: slategrey;
+}
+
+footer a:hover {
+	background-color: white;
+	color: slategrey;
+}
+
+
