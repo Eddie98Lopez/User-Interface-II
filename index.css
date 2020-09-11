@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Begin your code below this comment*/
+
+body{
+	font-family:'Prompt', sans-serif;
+}
+.navbar{
+    height: 55px;
+	background-color: black;
+	border-bottom: 5px solid white;
+}
+
+.navbar img {
+	float: left;
+	height: 20px;
+}
+
+nav {
+	
+	display: flex;
+	justify-content: flex-end;
+	text-transform: uppercase;
+    
+}
+
+
+.navbar nav a{ 
+	padding: 40px;
+	padding-top: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: whitesmoke;
+    
+}
+
+.navbar nav a:hover{
+	background-color: lightslategray ;
+}
+
+header img {
+	object-fit: cover;
+	
+}
+
+header{
+	background-image: url(/assets/headIMG.png);
+	background-position: left;
+	border-bottom: 5px solid white;
+	height: 43rem;
+	width: 100%;
+	position: relative;
+}
+
+header div {
+	position:absolute;
+	top: 10%;
+	left: 5%;
+}
+
+header div h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size:15rem;
+	line-height: 82%;
+	margin-bottom: 30px;
+}
+
+header div a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	background-color: black;
+	margin-left: 7px;
+	
+}
+
+header div a:hover{
+	background-color: lightslategrey;
+}
+
+
+section{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+
+}
+
+section div {
+	height: 20rem;
+	width: 20rem;
+}
+
+section img{
+
+	height: 20rem;
+	width: 20rem;
+	object-fit: cover;
+		
+}
+
+footer{
+	height: 100px;
+	background-color: grey;
+	display: flex;	
+	justify-content: center;
+	align-content: center;
+	margin-top: 20px;
+
+	
+}
+footer a {
+	padding:20px;
+	text-decoration: none;
+	color:white;
+	background-color: slategrey;
+}
+
+footer a:hover {
+	background-color: white;
+	color: slategrey;
+}
+
+
