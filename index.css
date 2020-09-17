@@ -48,7 +48,7 @@ body{
 	font-family:'Prompt', sans-serif;
 }
 .navbar{
-    height: 55px;
+    padding: 1rem auto;
 	background-color: black;
 	border-bottom: 5px solid white;
 }
@@ -63,13 +63,13 @@ nav {
 	display: flex;
 	justify-content: flex-end;
 	text-transform: uppercase;
+	flex-wrap: wrap;
     
 }
 
 
 .navbar nav a{ 
-	padding: 40px;
-	padding-top: 20px;
+	padding: 26px;
 	text-align: center;
 	text-decoration: none;
 	color: whitesmoke;
@@ -126,32 +126,42 @@ header div a:hover{
 
 
 section{
+	/*
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-evenly;
+	justify-content: center;
+	margin-bottom: 0px;*/
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-template-rows: auto auto;
 
+	margin-bottom: 1rem;
 }
+
 
 section div {
-	height: 20rem;
-	width: 20rem;
+	/*height: 30rem;
+	width: 30rem;*/
+	width: 100%;
+    height: 100%;
+    
+
+
 }
 
-section img{
-
-	height: 20rem;
-	width: 20rem;
-	object-fit: cover;
+section div img{
+	width: inherit;
+	height: inherit;
+	object-fit: cover ;
 		
 }
 
 footer{
-	height: 100px;
 	background-color: grey;
 	display: flex;	
 	justify-content: center;
 	align-content: center;
-	margin-top: 20px;
+	
 
 	
 }
@@ -159,7 +169,7 @@ footer a {
 	padding:20px;
 	text-decoration: none;
 	color:white;
-	background-color: slategrey;
+	
 }
 
 footer a:hover {
