@@ -86,12 +86,16 @@ header img {
 }
 
 header{
-	background-image: url(/assets/headIMG.png);
-	background-position: left;
 	border-bottom: 5px solid white;
 	height: 43rem;
 	width: 100%;
 	position: relative;
+}
+
+header img{
+	width: inherit;
+	height: inherit;
+	
 }
 
 header div {
