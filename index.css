@@ -177,4 +177,43 @@ footer a:hover {
 	color: slategrey;
 }
 
+@media (max-width:425px){
+	nav{
+		flex-flow: column nowrap;
+	}
+	nav a{
+		padding: 5px;
+	}
+	header{
+		height: 26rem;
+	}
+	header img{
+		opacity: .6;
+	}
+	header div h1{
+		font-size: 10rem;
+		
+	}
 
+	section{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+	}
+}
+@media (max-width:650px){
+	header{
+		height: 26rem;
+	}
+	header img{
+		
+	}
+	header div h1{
+		font-size: 10rem;
+		
+	}
+
+	section{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+	}
+}
